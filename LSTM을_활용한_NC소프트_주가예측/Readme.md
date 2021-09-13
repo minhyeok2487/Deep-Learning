@@ -19,4 +19,5 @@ adam = Adam(lr=0.0005)
 model.compile(optimizer=adam, loss=loss, metrics=['mae'])
 ```
 실제 값과 예측 값 차이가 너무 큼 
+
 ![image](https://user-images.githubusercontent.com/76654360/133051281-19366162-becd-4068-b58f-81935de410e8.png)
